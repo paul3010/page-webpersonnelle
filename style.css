@@ -1,0 +1,128 @@
+        body {
+            background-image: url("44.jpg");
+            background-repeat: no-repeat;
+            width: 1500px;
+            height: 1000px;
+        }
+        
+        #tete {
+            display: flex;
+        }
+        
+        #tete h1 {
+            display: flex;
+            padding-left: 200px;
+            font-weight: bold;
+            font-size: 70px;
+            color: deeppink
+        }
+        
+        header img {
+            width: 100px;
+            height: 200px;
+            padding-left: 10px;
+        }
+        
+        #block {
+            display: block;
+            text-align: center;
+        }
+        
+        #block p {
+            font-style: italic;
+            font-size: x-large;
+            color: fuchsia;
+        }
+        
+        main {
+            width: %;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1;
+        }
+        
+        main nav {
+            width: 15%;
+            line-height: 2;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        nav li:hover {
+            background: rgb(185, 54, 76);
+            font-size: 18px;
+            color: #fff;
+        }
+        
+        nav ul {
+            margin: 0px;
+            padding-left: 0px;
+            font-weight: bold;
+        }
+        
+        main section {
+            width: 85%;
+            text-align: center;
+        }
+        
+        section.grid {
+            display: grid;
+            grid-template-columns: auto;
+        }
+        
+        section header {
+            font-size: large;
+            font-weight: bold;
+            text-align: center;
+            background-color: gainsboro;
+            border: solid;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        section article {
+            background-color: rgba(226, 180, 199, 0.199);
+            height: 100px;
+            margin: 2px;
+        }
+        
+        header.hed {
+            text-align: center;
+            font-weight: bold;
+            background-color: rgb(173, 89, 180);
+        }
+        
+        fieldset {
+            align-self: auto;
+            margin-left: 400px;
+        }
+        
+        table {
+            width: 600px;
+            height: 200px;
+        }
+        
+        #e {
+            width: 100px;
+        }
+        
+        #r {
+            width: 100px;
+        }
+        
+        footer p {
+            padding-bottom: 10px;
+            background-color: gainsboro;
+        }
+        
+        footer {
+            height: 30px;
+            position: flex;
+            bottom: 5px;
+            color: white;
+            text-align: center;
+            margin-left: 100px;
+        }
